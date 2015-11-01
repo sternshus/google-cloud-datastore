@@ -399,4 +399,4 @@ def to_timestamp_usec(dt):
     # this is an "aware" datetime with an explicit timezone. Throw an error.
     raise TypeError('Cannot store a timezone aware datetime. '
                     'Convert to UTC and store the naive datetime.')
-  return long(calendar.timegm(dt.timetuple()) * 1000000L) + dt.microsecond
+  return int(calendar.timegm(dt.timetuple()) * 1000000) + dt.microsecond

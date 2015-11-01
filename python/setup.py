@@ -29,8 +29,8 @@ setup(
     url='https://github.com/GoogleCloudPlatform/google-cloud-datastore',
     packages=['googledatastore'],
     package_dir={'googledatastore': 'googledatastore'},
-    install_requires=['protobuf==2.5.0', 'oauth2client==1.2',
-                      'uritemplate==0.6'],
+    install_requires=['protobuf>=3.0.0a3', 'oauth2client>=1.5',
+                      'uritemplate>=0.6'],
     classifiers=[
             "Development Status :: 4 - Beta",
             "Topic :: Database",
@@ -38,5 +38,6 @@ setup(
             "Operating System :: OS Independent",
             "Programming Language :: Python :: 2",
             "Programming Language :: Python :: 2.7",
+            "Programming Language :: Python :: 3.5",
         ],
 )

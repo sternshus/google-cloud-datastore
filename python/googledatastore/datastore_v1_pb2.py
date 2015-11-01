@@ -237,14 +237,14 @@ _PARTITIONID = _descriptor.Descriptor(
     _descriptor.FieldDescriptor(
       name='dataset_id', full_name='api.services.datastore.PartitionId.dataset_id', index=0,
       number=3, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=unicode("", "utf-8"),
+      has_default_value=False, default_value=bytes("", "utf-8"),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
       name='namespace', full_name='api.services.datastore.PartitionId.namespace', index=1,
       number=4, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=unicode("", "utf-8"),
+      has_default_value=False, default_value=bytes("", "utf-8"),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
@@ -272,7 +272,7 @@ _KEY_PATHELEMENT = _descriptor.Descriptor(
     _descriptor.FieldDescriptor(
       name='kind', full_name='api.services.datastore.Key.PathElement.kind', index=0,
       number=1, type=9, cpp_type=9, label=2,
-      has_default_value=False, default_value=unicode("", "utf-8"),
+      has_default_value=False, default_value=bytes("", "utf-8"),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
@@ -286,7 +286,7 @@ _KEY_PATHELEMENT = _descriptor.Descriptor(
     _descriptor.FieldDescriptor(
       name='name', full_name='api.services.datastore.Key.PathElement.name', index=2,
       number=3, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=unicode("", "utf-8"),
+      has_default_value=False, default_value=bytes("", "utf-8"),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
@@ -383,14 +383,14 @@ _VALUE = _descriptor.Descriptor(
     _descriptor.FieldDescriptor(
       name='blob_key_value', full_name='api.services.datastore.Value.blob_key_value', index=5,
       number=16, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=unicode("", "utf-8"),
+      has_default_value=False, default_value=bytes("", "utf-8"),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
       name='string_value', full_name='api.services.datastore.Value.string_value', index=6,
       number=17, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=unicode("", "utf-8"),
+      has_default_value=False, default_value=bytes("", "utf-8"),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
@@ -453,7 +453,7 @@ _PROPERTY = _descriptor.Descriptor(
     _descriptor.FieldDescriptor(
       name='name', full_name='api.services.datastore.Property.name', index=0,
       number=1, type=9, cpp_type=9, label=2,
-      has_default_value=False, default_value=unicode("", "utf-8"),
+      has_default_value=False, default_value=bytes("", "utf-8"),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
@@ -636,7 +636,7 @@ _KINDEXPRESSION = _descriptor.Descriptor(
     _descriptor.FieldDescriptor(
       name='name', full_name='api.services.datastore.KindExpression.name', index=0,
       number=1, type=9, cpp_type=9, label=2,
-      has_default_value=False, default_value=unicode("", "utf-8"),
+      has_default_value=False, default_value=bytes("", "utf-8"),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
@@ -664,7 +664,7 @@ _PROPERTYREFERENCE = _descriptor.Descriptor(
     _descriptor.FieldDescriptor(
       name='name', full_name='api.services.datastore.PropertyReference.name', index=0,
       number=2, type=9, cpp_type=9, label=2,
-      has_default_value=False, default_value=unicode("", "utf-8"),
+      has_default_value=False, default_value=bytes("", "utf-8"),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
@@ -878,7 +878,7 @@ _GQLQUERY = _descriptor.Descriptor(
     _descriptor.FieldDescriptor(
       name='query_string', full_name='api.services.datastore.GqlQuery.query_string', index=0,
       number=1, type=9, cpp_type=9, label=2,
-      has_default_value=False, default_value=unicode("", "utf-8"),
+      has_default_value=False, default_value=bytes("", "utf-8"),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
@@ -927,7 +927,7 @@ _GQLQUERYARG = _descriptor.Descriptor(
     _descriptor.FieldDescriptor(
       name='name', full_name='api.services.datastore.GqlQueryArg.name', index=0,
       number=1, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=unicode("", "utf-8"),
+      has_default_value=False, default_value=bytes("", "utf-8"),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
@@ -1840,5 +1840,5 @@ class AllocateIdsResponse(_message.Message):
 
 
 DESCRIPTOR.has_options = True
-DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), '\n!com.google.api.services.datastore')
+DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), b'\n!com.google.api.services.datastore')
 # @@protoc_insertion_point(module_scope)
